@@ -1,0 +1,116 @@
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    int c=sc.nextInt();
+		    int d=(b-a)/c;
+		    System.out.println(d);
+		}
+	}
+}
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		    int a=sc.nextInt();
+		    int c=2*(n+a);
+		    int d=n*a;
+		    if(d>c)
+		    {
+		        System.out.println("Area");
+		        System.out.println(d);
+		    }
+		    else if(d==c)
+		    {
+		        System.out.println("Eq");
+		        System.out.println(d);
+		    }
+		    else
+		    {
+		        System.out.println("Peri");
+		        System.out.println(c);
+		    }
+		}
+	}
+
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    int c=sc.nextInt();
+		    int d=sc.nextInt();
+		    int k=a-b;
+		    int f;
+		    int s=b*c;
+		    if(c>d)
+		    {
+		         f=k*d;
+		    }
+		    else
+		    {
+		        f=k*c;
+		    }
+		    System.out.println(s+f);
+		}
+	}
+}
+/* package codechef; // don't place package name! */
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+		    int a=sc.nextInt();
+		    int b=sc.nextInt();
+		    int c=sc.nextInt();
+		    int d=sc.nextInt();
+		    int e=c/a;
+		    int f=d/b;
+		    System.out.println(e+f);
+		}
+	}
+}
